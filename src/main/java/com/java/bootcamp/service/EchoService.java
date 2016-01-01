@@ -1,4 +1,4 @@
-package com.java.bootcamp.challenges.service;
+package com.java.bootcamp.service;
 
 import org.springframework.stereotype.Service;
 

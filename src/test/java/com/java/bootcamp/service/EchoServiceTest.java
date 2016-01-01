@@ -2,7 +2,7 @@ package com.java.bootcamp.service;
 
 import static org.junit.Assert.assertEquals;
 
-import com.java.bootcamp.challenges.service.EchoService;
+import com.java.bootcamp.service.EchoService;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.InjectMocks;

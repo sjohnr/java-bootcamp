@@ -1,6 +1,6 @@
 package com.java.bootcamp.challenges;
 
-import com.java.bootcamp.challenges.service.EchoService;
+import com.java.bootcamp.service.EchoService;
 import org.springframework.stereotype.Component;
 
 import javax.inject.Inject;
@@ -12,6 +12,7 @@ public class Challenge2 implements Runnable {
 
     @Override
     public void run() {
-        echoService.echo("Hello, world!");
+        String echo = echoService.echo("Hello, world!");
+        System.out.println("EchoService responded with '" + echo + "'");
     }
 }
