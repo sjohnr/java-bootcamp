@@ -16,6 +16,9 @@ public class Challenges implements Runnable {
     @Inject
     private Challenge3 challenge3;
 
+    @Inject
+    private Challenge4 challenge4;
+
     @PostConstruct
     public void runChallenges() {
         new Thread(this).start();
